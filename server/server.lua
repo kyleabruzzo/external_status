@@ -42,13 +42,13 @@ RegisterCommand(external.commando, function(source, args, rawCommand)
             status_giocatore[_source] = nil
             TriggerClientEvent('external:rimuovistatus', -1, _source)
 
-            TriggerClientEvent('external:notify', -1, 'Successo', "Hai rimosso il tuo status!")
+            TriggerClientEvent('external:notify', _source, 'Successo', "Hai rimosso il tuo status!")
         else
             local message = table.concat(args, ' ', 1)
             status_giocatore[_source] = message
             TriggerClientEvent('external:settastatus', -1, _source, message)
 
-            TriggerClientEvent('external:notify', -1, 'Successo', "Il tuo nuovo status: " .. message)
+            TriggerClientEvent('external:notify', _source, 'Successo', "Il tuo nuovo status: " .. message)
         end
     end
 end, false)
