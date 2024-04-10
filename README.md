@@ -1,1 +1,1 @@
-![Preview]([http://url/to/img.png](https://cdn.discordapp.com/attachments/610649234282250260/1227587814523273226/image.png?ex=6628f33e&is=66167e3e&hm=e59662cdbd4f100f176dfb35c33c81cd57f5f80a984d1bd38d91318d48186d61&))
+![Preview](https://cdn.discordapp.com/attachments/610649234282250260/1227587814523273226/image.png?ex=6628f33e&is=66167e3e&hm=e59662cdbd4f100f176dfb35c33c81cd57f5f80a984d1bd38d91318d48186d61&)
